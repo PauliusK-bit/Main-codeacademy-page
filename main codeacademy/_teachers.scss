@@ -1,0 +1,42 @@
+@use "buttons";
+
+.teachers-container {
+  display: grid;
+  margin-left: 30px;
+  h1 {
+    font-size: 40px;
+  }
+  .all-teachers {
+    @include buttons.all-teachers;
+  }
+}
+
+.image {
+  width: 100px;
+  border-radius: 80px;
+}
+
+.teacher-info img {
+  width: 25px;
+}
+
+.teacher-info {
+  display: flex;
+}
+
+.teacher-info img {
+  margin-right: 15px;
+}
+
+.black-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.social-link {
+  margin-bottom: 90px;
+  a {
+    img {
+    }
+  }
+}

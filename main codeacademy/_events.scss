@@ -1,0 +1,75 @@
+@use "buttons";
+
+.events {
+  background-color: #0f02b7;
+
+  h1 {
+    color: white;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 40px;
+  }
+  .events-container {
+    display: grid;
+    justify-content: center;
+    padding-left: 50px;
+    a {
+      text-decoration: none;
+      margin-bottom: 66px;
+    }
+    .card {
+      img {
+        width: 400px;
+        text-align: center;
+      }
+      .card-info {
+        p {
+          font-size: 10px;
+          letter-spacing: 1px;
+          line-height: 1.2;
+          margin-bottom: 3px;
+          text-transform: uppercase;
+          color: white;
+        }
+        span {
+          font-size: 24px;
+          line-height: 1.33;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+        }
+      }
+
+      .small-container {
+        background: #fff;
+        border-radius: 8px;
+        color: #000;
+        margin: -70px 0 29px 10px;
+        max-width: 60px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        top: -90px;
+        .event-day {
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 1.2;
+          padding: 6px 4px;
+        }
+
+        .event-month {
+          background: #ff00e9;
+          color: #ffffff;
+          font-size: 10px;
+          letter-spacing: 1px;
+          line-height: 1.2;
+          padding: 4px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .news-events {
+      @include buttons.news-events;
+    }
+  }
+}

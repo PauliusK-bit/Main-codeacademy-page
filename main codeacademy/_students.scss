@@ -1,0 +1,67 @@
+.students-wrapper {
+  margin-top: 70px;
+  margin-left: 30px;
+  display: grid;
+  .student-dalius {
+    background-color: black;
+    height: 600px;
+    max-width: 450px;
+    .student-info-d {
+      margin-left: 40px;
+      margin-top: 50px;
+      img {
+        width: 90px;
+        border-radius: 50px;
+      }
+
+      .d-text {
+        span {
+          color: white;
+          font-weight: bold;
+        }
+        h6 {
+          color: gray;
+          font-size: 12px;
+        }
+        p {
+          color: white;
+          letter-spacing: 1px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .student-ruta {
+    background-color: black;
+    height: 600px;
+    max-width: 450px;
+    margin-top: 50px;
+    .student-info-r {
+      margin-left: 40px;
+      margin-top: 50px;
+      img {
+        width: 90px;
+        border-radius: 50px;
+      }
+
+      .r-text {
+        span {
+          color: white;
+          font-weight: bold;
+        }
+        h6 {
+          color: gray;
+          font-size: 12px;
+        }
+        p {
+          color: white;
+          letter-spacing: 1px;
+          font-size: 13px;
+          line-height: 25px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,282 @@
+@use "buttons";
+
+@media (min-width: 700px) {
+  .header-container-wrapper-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .numbers-container {
+    margin-bottom: 80px;
+  }
+
+  .teachers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 899px) {
+  .header-container-wrapper-content {
+    margin-bottom: 120px;
+    margin-top: 120px;
+  }
+
+  .more {
+    @include buttons.more(30%);
+  }
+
+  .student {
+    margin-right: 60px;
+  }
+
+  .video .video-container {
+    padding-bottom: 101px;
+  }
+
+  .video .video-container .story .people img {
+    width: 90%;
+    position: absolute;
+    top: -242px;
+    left: 188px;
+    z-index: 4;
+  }
+
+  .video .video-container .image-container .arrow img {
+    width: 550px;
+    height: 525px;
+    position: absolute;
+    bottom: -292px;
+    left: -174px;
+    z-index: 5;
+  }
+
+  .table-container th {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .students-wrapper {
+    margin-top: 74px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .students-wrapper .student-ruta {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+
+  .partners .partners-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .events .events-container {
+    display: grid;
+    justify-content: center;
+    padding-left: 50px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-container .socials {
+    left: 828px;
+  }
+
+  .footer-container .footer-links::after {
+    width: 90%;
+  }
+
+  .footer-container .other-links::after {
+    width: 90%;
+  }
+
+  .footer-container .lnk::after {
+    width: 90%;
+  }
+
+  .footer-container .last-footer-container .footer-decoration img {
+    left: 575px;
+  }
+}
+
+@media (min-width: 1186px) {
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  .video .video-container .story .people img {
+    width: 68%;
+
+    top: -239px;
+    left: 408px;
+    z-index: 4;
+  }
+  .video .video-container .story .white-btn {
+    padding-top: 10px;
+    margin-left: 28px;
+    width: 20%;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 6;
+  }
+
+  .video .video-container .story p {
+    z-index: 6;
+  }
+
+  iframe {
+    width: 570px;
+  }
+
+  .levels .first-level {
+    width: 500px;
+    margin-top: 30px;
+  }
+
+  .levels .first-level .choose {
+    width: 36%;
+    margin-top: 50px;
+  }
+
+  .second-level {
+    width: 500px;
+  }
+
+  .second-level .choose {
+    width: 36%;
+    margin-top: 30px;
+  }
+
+  .road-container .other-road-image img {
+    left: 474px;
+
+    width: 60%;
+  }
+
+  .road-container {
+    padding-bottom: 62px;
+  }
+
+  .road-container .road-image img {
+    width: 477px;
+  }
+  .teachers {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .teachers-container .all-teachers {
+    width: 17%;
+  }
+}
+
+@media (min-width: 2120px) {
+  .page .main-header-container .header-container {
+    justify-content: center;
+  }
+
+  .header-container-wrapper-content {
+    text-align: center;
+  }
+
+  .student {
+    width: 340px;
+    margin-right: 160px;
+  }
+
+  .business {
+    width: 340px;
+  }
+
+  .page .header-container-wrapper .header-container-wrapper-text {
+    padding-bottom: 114px;
+    margin: auto;
+  }
+
+  .numbers {
+    width: 700px;
+    margin: auto;
+  }
+
+  .student-nmbr {
+    margin-bottom: 95px;
+  }
+
+  .number-text {
+    margin: 50px auto;
+    width: 700px;
+  }
+  .video-container {
+    text-align: center;
+  }
+
+  .video .video-container .story .people img {
+    width: 30%;
+    top: -216px;
+    z-index: 4;
+    left: 70em;
+  }
+
+  .video .video-container .image-container .arrow img {
+    left: 750px;
+  }
+
+  .table-container {
+    width: 1156px;
+    margin: 70px auto;
+  }
+
+  .page .story-video {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .teachers {
+    grid-template-columns: 340px 340px 340px 340px;
+  }
+
+  .teachers-container {
+    display: grid;
+    margin-left: 30px;
+
+    justify-content: center;
+  }
+
+  .road-container .other-road-image img {
+    width: 50%;
+    left: 1272px;
+  }
+
+  .road-container {
+    padding-bottom: 198px;
+  }
+
+  .road-container h1 {
+    left: 1000px;
+  }
+
+  .students-wrapper {
+    grid-template-columns: 600px 600px;
+  }
+
+  .students-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .events .events-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}

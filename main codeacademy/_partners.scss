@@ -1,0 +1,30 @@
+.partners {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 0 30px;
+  width: 100%;
+  h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .partners-container {
+    margin-top: 50px;
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      list-style: none;
+      margin: 0 -30px;
+      padding: 0;
+      li {
+        margin-bottom: 55px;
+        padding: 0 30px;
+        width: 50%;
+        a {
+          img {
+            width: 170px;
+          }
+        }
+      }
+    }
+  }
+}

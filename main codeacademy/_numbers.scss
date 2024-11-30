@@ -1,0 +1,52 @@
+.numbers-container {
+  margin-left: 30px;
+  display: grid;
+
+  .number-text {
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .numbers {
+    .student-nmbr {
+      span {
+        font-weight: bold;
+        font-size: 100px;
+      }
+      p {
+        font-weight: bold;
+      }
+    }
+    .finished-nmbr {
+      span {
+        font-weight: bold;
+        font-size: 100px;
+      }
+      p {
+        font-weight: bold;
+      }
+    }
+    .work-nmbr {
+      span {
+        font-weight: bold;
+        font-size: 100px;
+      }
+      p {
+        font-weight: bold;
+      }
+    }
+    .program-nmbr {
+      span {
+        font-weight: bold;
+        font-size: 80px;
+      }
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+}

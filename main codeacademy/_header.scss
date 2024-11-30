@@ -1,0 +1,74 @@
+@use "buttons";
+
+.page {
+  .main-header-container {
+    background-color: black;
+    background-image: url(./image/decoration-arrows.svg);
+
+    .header-container {
+      display: flex;
+      .image-container {
+        img {
+        }
+      }
+      .links-container {
+        .links {
+          a {
+            margin-right: 30px;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+          }
+          .call-button {
+            @include buttons.call-button;
+          }
+        }
+      }
+    }
+  }
+
+  .header-container-wrapper {
+    display: grid;
+    margin-left: 40px;
+    .header-container-wrapper-content {
+      h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 55px;
+      }
+      p {
+        color: white;
+      }
+    }
+    .header-container-wrapper-text {
+      margin-bottom: 80px;
+      .student {
+        h3 {
+          color: white;
+          font-size: 25px;
+        }
+        p {
+          color: white;
+          font-size: 15px;
+        }
+        .more {
+          @include buttons.more(90%);
+        }
+      }
+      .business {
+        h3 {
+          color: white;
+          font-size: 25px;
+        }
+        p {
+          color: white;
+          font-size: 15px;
+        }
+        .more {
+          @include buttons.more(90%);
+        }
+      }
+    }
+  }
+}

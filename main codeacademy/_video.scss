@@ -1,0 +1,62 @@
+@use "buttons";
+.video {
+  background-color: #0f02b7;
+  .video-container {
+    padding-bottom: 450px;
+    .story {
+      margin-left: 30px;
+
+      h1 {
+        color: white;
+        padding-top: 100px;
+        font-size: 50px;
+        position: relative;
+        z-index: 6;
+      }
+      p {
+        color: white;
+        padding-bottom: 20px;
+        line-height: 30px;
+        position: relative;
+        z-index: 5;
+      }
+      .white-btn {
+        @include buttons.white-btn;
+        position: relative;
+        z-index: 4;
+      }
+
+      .people {
+        position: relative;
+        z-index: 2;
+        padding-top: 230px;
+        img {
+          width: 450px;
+          position: absolute;
+          top: 354px;
+          left: 0;
+        }
+      }
+    }
+    .image-container {
+      .arrow {
+        position: relative;
+        img {
+          width: 550px;
+          height: 525px;
+          position: absolute;
+          bottom: -292px;
+          left: -174px;
+        }
+      }
+    }
+  }
+}
+
+.page {
+  .story-video {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+}
